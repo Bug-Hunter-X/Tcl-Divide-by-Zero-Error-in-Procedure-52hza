@@ -1,0 +1,1 @@
+proc badproc {a b} {  if {$a == 0} {set c [expr $b / $a]}  return $c} puts [badproc 0 10]
