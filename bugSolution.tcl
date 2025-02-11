@@ -1,0 +1,1 @@
+proc safeProc {a b} {  if {$a == 0} {    return "Error: Division by zero"  } else {    return [expr {$b / $a}]  } } puts [safeProc 0 10] puts [safeProc 5 10]
